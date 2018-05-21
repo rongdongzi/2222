@@ -3612,7 +3612,7 @@ select:focus
 
     display: none;
 
-    width: 280px;
+    /* width: 280px; */
 
     -webkit-transition: opacity .3s;
             transition: opacity .3s;
