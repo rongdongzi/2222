@@ -333,6 +333,7 @@
                         position: absolute;
                         top: 3.8rem;
                         right: 0.4rem;
+                        z-index: 10;
                     }
                     
                     .w-banner .w-haveMoney {
