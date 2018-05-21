@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./mui/css/mui.css">
     <link rel="stylesheet" href="./iconfonts/iconfont.css">
-    <!-- <link rel="stylesheet" href="./css/iconfont.css"> -->
     <script src="./js/rem.js"></script>
 
 </head>
@@ -42,9 +41,9 @@
             </ul>
 
             <div class="w-incomeClassify">
-                <div id="segmentedControl " class="mui-clearfix">
-                    <a href="#item1" class="mui-control-item mui-active">我的红包</a>
-                    <a href="#item2" class="mui-control-item">我的分红</a>
+                <div id="segmentedControl" class="mui-segmented-control">
+                    <a class="mui-control-item mui-active" href="#item1">我的红包</a>
+                    <a class="mui-control-item" href="#item2">我的分红</a>
                 </div>
 
                 <div id="item1" class="mui-control-content mui-clearfix mui-active">
@@ -60,9 +59,9 @@
                         </div>
                         <strong>5.00</strong>
                     </div>
-
                     <a href="#" class="w-itemDetail">明细</a>
                 </div>
+
                 <div id="item2" class="mui-control-content mui-clearfix ">
                     <p class="w-itemNews"><span class="iconfont icon-weibiaoti2 icon-itemNews"></span>好友将得到消费礼品卡一张,持卡到店消费后</p>
                     <div class="w-itemMiddle mui-clearfix">
@@ -76,10 +75,8 @@
                         </div>
                         <strong>10.00</strong>
                     </div>
-
                     <a href="#" class="w-itemDetail">明细</a>
                 </div>
-
             </div>
         </div>
         <div class="w-carPaper">
@@ -109,8 +106,9 @@
     </div>
 
     <script src="./js/jquery-3.3.1.min.js"></script>
-    <script src="./mui/js/mui.min.js"></script>
+    <script src="./mui/js/mui.min.js"></script> 
     <script>
+
         mui('.mui-scroll-wrapper').scroll({
             deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
         });
@@ -123,7 +121,7 @@
      
         // $('.putForward').on('click', function() {
         //     $('.mui-backdrop').css('backgroundColor', '#000')
-        // })
+        // })    
        
   
     </script>

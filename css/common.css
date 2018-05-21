@@ -711,7 +711,7 @@
                         background-color: #E97540;
                         border-radius: 1.4rem;
                         right: 0;
-                        top: 0.02rem;
+                        top: 0.04rem;
                         font-weight: 600;
                         font-size: 16px;
                     }
@@ -824,7 +824,7 @@
                     }
                     
                     .w-itemMiddle .w-itemMiddleInfo p {
-                        font-size: 14px;
+                        font-size: 1px;
                         margin-bottom: 0;
                         color: #000;
                     }
@@ -991,4 +991,19 @@
                     }
                     .w-incomeClassify .mui-control-item {
                         font-size: 12px
+                    }
+                    .mui-segmented-control{
+                        border:0!important;  
+                    }
+                    .mui-segmented-control .mui-control-item{
+                        width: 50%!important;  
+                        height: 1.25rem!important;
+                        line-height: 1.25rem!important;
+                        border:0!important;
+                        color:#fff!important;
+                        background-color: #EFB37D;      
+                    }
+                    .mui-segmented-control .mui-control-item.mui-active{
+                        background-color: #fff!important; 
+                        color:#000!important;
                     }
